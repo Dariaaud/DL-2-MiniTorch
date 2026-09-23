@@ -341,12 +341,10 @@ def _mm_practice(out: Storage, a: Storage, b: Storage, size: int) -> None:
     * Only write to global memory once per kernel.
 
     Compute
-    
      for i:
      for j:
           for k:
               out[i, j] += a[i, k] * b[k, j]
-    
     Args:
         out (Storage): storage for `out` tensor.
         a (Storage): storage for `a` tensor.
