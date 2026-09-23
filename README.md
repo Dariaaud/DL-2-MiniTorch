@@ -11,6 +11,8 @@
 - Learning rate: 0.5
 - Epochs: 500
 
+<img width="799" height="817" alt="image" src="https://github.com/user-attachments/assets/e7420411-ec61-4f2c-ac38-d7581deea79c" />
+
 <details>
 <summary>Training log</summary>
 
@@ -24,6 +26,8 @@
 - Hidden layers: 3
 - Learning rate: 0.5
 - Epochs: 500
+
+<img width="910" height="753" alt="image" src="https://github.com/user-attachments/assets/2761d5e7-ee56-4e84-85a3-7ddb030de05a" />
 
 <details>
 <summary>Training log</summary>
@@ -39,6 +43,8 @@
 - Learning rate: 0.5
 - Epochs: 500
 
+<img width="909" height="778" alt="image" src="https://github.com/user-attachments/assets/93919bf5-ae50-4f25-b3ac-4f6be3c25552" />
+
 <details>
 <summary>Training log</summary>
 
@@ -53,6 +59,8 @@
 - Learning rate: 0.5
 - Epochs: 500
 
+<img width="854" height="793" alt="image" src="https://github.com/user-attachments/assets/9d5a14e8-7ca9-419e-a4d5-1e8a8f158d1f" />
+
 <details>
 <summary>Training log</summary>
 [scalar_xor.txt](https://github.com/user-attachments/files/32578334/scalar_xor.txt)
@@ -60,14 +68,58 @@ ading scalar_xor.txt…]()
 
 </details>
 
-<img width="878" height="807" alt="Снимок экрана 2026-09-23 224232" src="https://github.com/user-attachments/assets/40759b22-869f-48d3-b5b1-45c519b832c6" />
-<img width="918" height="813" alt="Снимок экрана 2026-09-23 224039" src="https://github.com/user-attachments/assets/0eeffa3f-08d9-482e-99ff-dc4869b30259" />
-<img width="832" height="827" alt="Снимок экрана 2026-09-23 224023" src="https://github.com/user-attachments/assets/eebba01f-9d12-46ac-a1b7-f2f77e98d803" />
-<img width="902" height="782" alt="Снимок экрана 2026-09-23 223921" src="https://github.com/user-attachments/assets/177f21ba-17c8-401f-beb3-4a54d5678edb" />
-<img width="928" height="817" alt="Снимок экрана 2026-09-23 223859" src="https://github.com/user-attachments/assets/357f3726-4c37-4dab-a078-d32da78c5f60" />
-<img width="991" height="790" alt="Снимок экрана 2026-09-23 223847" src="https://github.com/user-attachments/assets/a9f59258-7dd4-477e-bfac-06ea1deb12d1" />
-<img width="911" height="792" alt="Снимок экрана 2026-09-23 223826" src="https://github.com/user-attachments/assets/75ff6e7b-e0eb-47e9-b869-2fcf27319311" />
-<img width="810" height="771" alt="Снимок экрана 2026-09-23 223820" src="https://github.com/user-attachments/assets/3bfb7d33-af83-4c9c-a003-bdd19631244d" />
+#2.5
+
+## Task 2.5: Tensor Training
+
+### Simple
+
+- Points: 50
+- Hidden layers: 3
+- Learning rate: 0.5
+- Epochs: 500
+
+<img width="804" height="808" alt="image" src="https://github.com/user-attachments/assets/43a2744a-1e51-47ea-aff4-4a5eaa95c8b2" />
+
+<details>
+<summary>Training log</summary>
+
+[tensor_simple.txt](https://github.com/user-attachments/files/32579414/tensor_simple.txt)
+
+</details>
+
+### Diag
+
+- Points: 50
+- Hidden layers: 4
+- Learning rate: 0.5
+- Epochs: 500
+
+<img width="823" height="802" alt="image" src="https://github.com/user-attachments/assets/fb54cde6-8b0a-4dc2-b45f-2bc1365c7e4f" />
+
+
+<details>
+<summary>Training log</summary>
+  
+[tensor_diag.txt](https://github.com/user-attachments/files/32579386/tensor_diag.txt)
+
+</details>
+
+### Split
+
+- Points: 50
+- Hidden layers: 8
+- Learning rate: 0.5
+- Epochs: 500
+
+<img width="844" height="825" alt="image" src="https://github.com/user-attachments/assets/452aa637-d148-4f11-b815-163bc50d2e50" />
+
+<details>
+<summary>Training log</summary>
+
+[tensor_split.txt](https://github.com/user-attachments/files/32579360/tensor_split.txt)
+
+</details>
 
 
 # minitorch
