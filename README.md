@@ -14,7 +14,7 @@
 <details>
 <summary>Training log</summary>
 
-[scalar_simple.txt](https://github.com/user-attachments/files/32578374/scalar_simple.txt)
+[scalar_simple.txt](https://github.com/user-attachments/files/32578457/scalar_simple.txt)
 
 </details>
 
