@@ -293,7 +293,7 @@ def _tensor_matrix_multiply(
     NUMBA tensor matrix multiply function.
 
     assert a_shape[-1] == b_shape[-2]
-    
+
     Optimizations:
 
     * Outer loop in parallel
