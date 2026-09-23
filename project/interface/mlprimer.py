@@ -2,14 +2,22 @@ import random
 
 import chalk as ch
 from chalk import (
+    P2,
+    V2,
+    ArrowOpts,
+    Path,
     Trail,
+    circle,
+    concat,
     empty,
+    hstrut,
     make_path,
-    path,
     place_on_path,
     rectangle,
+    text,
     unit_x,
     unit_y,
+    vstrut,
 )
 from colour import Color
 from drawing import aqua, black, lightblue, lightred
@@ -48,7 +56,7 @@ def circle_mark():
 
 
 def origin():
-    return ch.rectangle(1, 1).translate(0.5, -0.5).fill_color(white).line_color(white)
+    return ch.rectangle(1, 1).translate(0.5, -0.5).fill_color(white).line_color(white)  # noqa: F821
 
 
 def axes():
@@ -78,7 +86,7 @@ def d_mark():
         True,
     )
     return (
-        t.rotate_by(0.25 / 2).line_width(0.2).scale_uniform_to_x(0.1).fill_color(blue)
+        t.rotate_by(0.25 / 2).line_width(0.2).scale_uniform_to_x(0.1).fill_color(blue)  # noqa: F821
     )
 
 
@@ -170,7 +178,7 @@ def compare(m1, m2):
 def with_points(pts1, pts2, b):
     "Draw a picture showing line to boundary"
     w1, w2 = 1, 1
-    model = Linear(w1, w2, b)
+    model = Linear(w1, w2, b)  # noqa: F821
     line = make_path([(0, b), (1, b + 1)])
     dia = draw_graph(model) + split_graph(pts1, pts2, False)
 
@@ -209,7 +217,7 @@ def show_loss(full_loss):
     i = 0
     for j, b in enumerate(range(20)):
         b = -1.7 + b / 20
-        m = Linear(1, 1, b)
+        m = Linear(1, 1, b)  # noqa: F821
         pt = (b, full_loss(m))
         path.append(pt)
         if j % 5 == 0:
