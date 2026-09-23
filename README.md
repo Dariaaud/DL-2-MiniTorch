@@ -1,3 +1,6 @@
+<img width="921" height="776" alt="Снимок экрана 2026-09-23 221532" src="https://github.com/user-attachments/assets/ea189f67-4231-4aaa-8e2d-0223f2dfd5a8" />
+<img width="1065" height="580" alt="Снимок экрана 2026-09-23 221526" src="https://github.com/user-attachments/assets/a457ec37-dbd8-477e-9a12-804473765810" />
+
 # minitorch
 The full minitorch student suite. 
 
