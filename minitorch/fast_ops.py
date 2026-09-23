@@ -339,5 +339,3 @@ def _tensor_matrix_multiply(
 
 
 tensor_matrix_multiply = njit(parallel=True, fastmath=True)(_tensor_matrix_multiply)
-
-    Should work for any tensor shapes that broadcast as long as
