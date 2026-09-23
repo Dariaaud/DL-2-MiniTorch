@@ -27,7 +27,7 @@
 - Learning rate: 0.5
 - Epochs: 500
 
-<img width="910" height="753" alt="image" src="https://github.com/user-attachments/assets/2761d5e7-ee56-4e84-85a3-7ddb030de05a" />
+<img width="898" height="780" alt="image" src="https://github.com/user-attachments/assets/880c312a-ee90-4092-b001-ad20bb9fb753" />
 
 <details>
 <summary>Training log</summary>
